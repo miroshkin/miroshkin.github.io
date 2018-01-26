@@ -1,0 +1,20 @@
+/*Tag selectors*/
+* {
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+/*Id selectors*/
+
+#content {
+  margin: auto;
+  width: 50%;
+}
+
+/*Class selectors*/
+
+/*Media queries*/
+@media (max-width: 1024px) {
+  #content {
+    width: 90%;
+  }
+}
