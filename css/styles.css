@@ -51,6 +51,12 @@ z-index: 9999;
 
 
 /*Class selectors*/
+.treehouse_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
 
 /*Media queries*/
 @media (max-width: 1024px) {
