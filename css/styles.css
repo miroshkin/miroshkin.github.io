@@ -41,10 +41,13 @@
 
 /*Class selectors*/
 .treehouse_image {
-    width: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-flex;
+    margin: auto;
+    width: 100px;
+}
+
+.treehouse_image_wrapper {
+  margin: auto;
 }
 
 /*Media queries*/
