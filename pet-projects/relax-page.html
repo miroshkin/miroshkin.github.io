@@ -11,15 +11,19 @@
                 gtag('config', 'UA-41346367-2');
     </script>
     <title>Miroshkin Anton - Full stack developer - Relax page</title>
-    <link rel="stylesheet" href="..\css\styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../js/mediaelement-and-player.js"></script>
+    <link href="../css/mediaelementplayer.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
   </head>
   <body>
-    <div class="content" style="text-align:center">
+    <div class="content">
     <p>Calm and beautiful place to have a rest...</p>
     <!--background audio-->
-  <div id="backgroundaudio">
+  <div id="backgroundaudio" >
 	  <i class="fa fa-volume-up"></i>
-	  <audio autoplay="auto" controls="" loop="" preload="" class="align-center">
+  </div>
+	  <audio autoplay="auto" controls="" loop="" preload="" class="mejs__player">
       <!--This track you can find here https://archive.org/details/SoothingPianoMusicForMeditation  -->
       <source src="..\sounds\soothing_piano_music_for_meditation.ogg" type="audio/ogg"></source>
 		  <source src="..\sounds\soothing_piano_music_for_meditation.mp3" type="audio/mpeg"></source>
