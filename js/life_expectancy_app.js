@@ -4,9 +4,17 @@
 //     console.log(data);
 // });
 var xhr = new XMLHttpRequest();
-xhr.onreadystatechande = function () {
+xhr.onreadystatechange = function () {
   if (xhr.readystate === 4) {
-    console.log(typeof JSON.parse(xhr.responseText));
+    var list = JSON.parse(xhr.responseText));
+    var listHTML = "<ul>";
+    for(var i=0; i<list.length; i += 1){
+      listHTML += "<li>";
+      listHTML += list[i].Country;
+      listHTML += "</li>";
+    }
+    listHTML += "</ul>";
+    document.getElementById("content").innerHTML = listHTML;
   }
 }
 xhr.open("GET", "https://miroshkin.netlify.com/json/life-expectancy.json");
