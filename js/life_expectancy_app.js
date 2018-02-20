@@ -6,7 +6,7 @@
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechande = function () {
   if (xhr.readystate === 4) {
-    console.log(JSON.parse(xhr.responseText));
+    console.log(typeof JSON.parse(xhr.responseText));
   }
 }
 xhr.open("GET", "https://miroshkin.netlify.com/json/life-expectancy.json");
