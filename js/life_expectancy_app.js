@@ -6,6 +6,7 @@
 alert("start");
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function () {
+  alert("readystate:" + xhr.readystate);
   if (xhr.readystate === 4) {
     var list = JSON.parse(xhr.responseText);
     var listHTML = "<ul>";
