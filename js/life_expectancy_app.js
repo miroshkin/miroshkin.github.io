@@ -3,17 +3,21 @@
 //     //data is the JSON string
 //     console.log(data);
 // });
+alert("start");
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function () {
   if (xhr.readystate === 4) {
     var list = JSON.parse(xhr.responseText);
     var listHTML = "<ul>";
+    alert(list.length);
     for(var i=0; i<list.length; i += 1){
+      alert("start loop");
       listHTML += "<li>";
       listHTML += list[i].Country;
       listHTML += "</li>";
     }
     listHTML += "</ul>";
+    alert(listHTML);
     document.getElementById("content").innerHTML = listHTML;
   }
 }
