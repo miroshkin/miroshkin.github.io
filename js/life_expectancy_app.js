@@ -3,22 +3,19 @@
 //     //data is the JSON string
 //     console.log(data);
 // });
-alert("start");
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function () {
-  alert("readystate:" + xhr.readyState);
-  if (xhr.readyState === 4) {
+    if (xhr.readyState === 4) {
     var list = JSON.parse(xhr.responseText);
     var listHTML = "<ul>";
     alert(list.length);
     for(var i=0; i<list.length; i += 1){
       alert("start loop");
       listHTML += "<li>";
-      listHTML += list[i].Country;
+      listHTML += list[i].Country + " " + list[i].BothSexesLifeExpectancy;
       listHTML += "</li>";
     }
     listHTML += "</ul>";
-    alert(listHTML);
     document.getElementById("content").innerHTML = listHTML;
   }
 }
