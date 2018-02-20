@@ -9,5 +9,5 @@ xhr.onreadystatechande = function () {
     console.log(JSON.parse(xhr.responseText));
   }
 }
-xhr.open("GET", "http://miroshkin.netlify.com/json/life-expectancy.json");
+xhr.open("GET", "https://miroshkin.netlify.com/json/life-expectancy.json");
 xhr.send();
