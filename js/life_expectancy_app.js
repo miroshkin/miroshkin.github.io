@@ -19,6 +19,8 @@
 // }
 // xhr.open("GET", "https://miroshkin.netlify.com/json/life-expectancy.json");
 // xhr.send();
+
+// Added test comment
 $(document).ready(function () {
   $.getJSON('https://miroshkin.netlify.com/json/life-expectancy.json', function(response) {
       //data is the JSON string
