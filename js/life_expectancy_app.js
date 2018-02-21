@@ -19,15 +19,16 @@
 // }
 // xhr.open("GET", "https://miroshkin.netlify.com/json/life-expectancy.json");
 // xhr.send();
-$.getJSON('https://miroshkin.netlify.com/json/life-expectancy.json', function(response) {
-    //data is the JSON string
-    var listHTML = "<ul>";
-    $.each(response, function () {
-      listHTML += "<li>";
-      listHTML += list[i].Country + " " + list[i].BothSexesLifeExpectancy;
-      listHTML += "</li>";
-    }
-    listHTML += "</ul>";
-    $("content").html(listHTML);
-  )
+$(document).ready(function () {
+  $.getJSON('https://miroshkin.netlify.com/json/life-expectancy.json', function(response) {
+      //data is the JSON string
+      var listHTML = "<ul>";
+      $.each(response, function (index, data) {
+        listHTML += "<li>";
+        listHTML += data[i].Country + " " + data[i].BothSexesLifeExpectancy;
+        listHTML += "</li>";
+      });
+      listHTML += "</ul>";
+      $("content").html(listHTML);
+    });
 });
