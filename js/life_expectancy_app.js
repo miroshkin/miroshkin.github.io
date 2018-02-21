@@ -29,5 +29,5 @@ $.getJSON('https://miroshkin.netlify.com/json/life-expectancy.json', function(re
     }
     listHTML += "</ul>";
     $("content").html(listHTML);
-  );
+  )
 });
