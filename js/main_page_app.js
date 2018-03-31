@@ -1,2 +1,2 @@
 
-$('.content').hide().delay(1000).slideDown(3000);
+// $('.content').hide().delay(1000).slideDown(3000);
