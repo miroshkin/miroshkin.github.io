@@ -27,7 +27,7 @@
       var listHTML = "<ul>";
       $.each(response, function (index, data) {
         listHTML += "<li>";
-        listHTML += data[i].Country + " " + data[i].BothSexesLifeExpectancy;
+        listHTML += data.Country + " " + data.BothSexesLifeExpectancy;
         listHTML += "</li>";
       });
       listHTML += "</ul>";
