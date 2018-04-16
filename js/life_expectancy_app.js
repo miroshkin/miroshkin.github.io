@@ -22,7 +22,7 @@
 
 // Added test comment
 // $(document).ready(function () {
-  $.getJSON('http://miroshkin.netlify.com/json/life-expectancy.json', function(response) {
+  $.getJSON('https://miroshkin.netlify.com/json/life-expectancy.json', function(response) {
       //data is the JSON string
       var listHTML = "<ul>";
       $.each(response, function (index, data) {
