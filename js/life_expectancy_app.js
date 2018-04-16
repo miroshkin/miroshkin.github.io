@@ -22,7 +22,7 @@
 
 // Added test comment
 // $(document).ready(function () {
-  $.getJSON('https://miroshkin.netlify.com/json/life-expectancy.json', function(response) {
+  $.getJSON('http://miroshkin.netlify.com/json/life-expectancy.json', function(response) {
       //data is the JSON string
       var listHTML = "<ul>";
       $.each(response, function (index, data) {
@@ -32,5 +32,6 @@
       });
       listHTML += "</ul>";
       $("content").html(listHTML);
+      console.log(listHTML);
     });
 // });
