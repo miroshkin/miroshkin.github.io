@@ -26,7 +26,7 @@
   var host = $(location).attr('host')
   console.log(host);
 
-  $.getJSON('www.' + host + '/json/life-expectancy.json', function(response) {
+  $.getJSON(host + '/json/life-expectancy.json', function(response) {
       //data is the JSON string
 
       var listHTML = "<ul>";
