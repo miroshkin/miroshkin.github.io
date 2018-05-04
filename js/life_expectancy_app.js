@@ -22,8 +22,10 @@
 
 // Added test comment
  $(document).ready(function () {
-  $.getJSON('http://miroshkin.netlify.com/json/life-expectancy.json', function(response) {
+  let localhost = $('<a>').prop('href', url).prop('hostname');
+  $.getJSON(localhost + '/json/life-expectancy.json', function(response) {
       //data is the JSON string
+
       var listHTML = "<ul>";
       $.each(response, function (index, data) {
         listHTML += "<li>";
