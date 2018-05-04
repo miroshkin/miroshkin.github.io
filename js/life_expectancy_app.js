@@ -22,7 +22,7 @@
 
 // Added test comment
  $(document).ready(function () {
-  $.getJSON('../json/life-expectancy.json', function(response) {
+  $.getJSON('../../json/life-expectancy.json', function(response) {
       //data is the JSON string
 
       var listHTML = "<ul>";
