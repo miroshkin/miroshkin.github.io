@@ -22,8 +22,12 @@
 
 // Added test comment
  $(document).ready(function () {
-  let localhost = $('<a>').prop('href', url).prop('hostname');
-  $.getJSON(localhost + '/json/life-expectancy.json', function(response) {
+   var a = document.createElement('a');
+  a.href = url;
+  var hostname = a.hostname;
+  console.log(hostname);
+
+  $.getJSON(hostname + '/json/life-expectancy.json', function(response) {
       //data is the JSON string
 
       var listHTML = "<ul>";
