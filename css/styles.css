@@ -48,6 +48,7 @@ audio, video {
 
 .treehouse_image_wrapper {
   margin: auto;
+  width:100px;
 }
 
 /*Media queries*/
