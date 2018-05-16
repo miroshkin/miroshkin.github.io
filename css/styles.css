@@ -15,6 +15,12 @@ audio, video {
   margin: auto;
 }
 
+.tree {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
 /*Relax page player styles */
 /* Snow animation from https://codepen.io/codeconvey/pen/xRzQay
   Read article http://codeconvey.com/make-css-snow-animation-effect-using-css3/ */
