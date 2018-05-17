@@ -3,11 +3,20 @@
   font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
-th, td {
-  border: solid black 1px;
+table {
+    border-collapse: collapse;
+    width: 100%;
 }
 
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
 
+th{
+  background-color: #dddddd;
+}
 
 /*Id selectors*/
 
