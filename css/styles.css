@@ -3,6 +3,12 @@
   font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
+th, td {
+  border: solid black 1px;
+}
+
+
+
 /*Id selectors*/
 
 #content {
@@ -15,11 +21,13 @@ audio, video {
   margin: auto;
 }
 
+/*Class selectors  */
 .tree {
     position: absolute;
     left: 0;
     bottom: 0;
     max-width: 100%;
+    max-height: 100%;
 }
 
 /*Relax page player styles */
