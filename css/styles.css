@@ -1,6 +1,8 @@
 /*Tag selectors*/
 * {
   font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+
 }
 
 table {
