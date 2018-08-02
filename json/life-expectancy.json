@@ -1,0 +1,1649 @@
+[
+ {
+   "Country": "Japan",
+   "BothSexesRank": 1,
+   "BothSexesLifeExpectancy": 83.7,
+   "FemaleRank": 1,
+   "FemaleLifeExpectancy": 86.8,
+   "MaleRank": 6,
+   "MaleLifeExpectancy": 80.5
+ },
+ {
+   "Country": "Switzerland",
+   "BothSexesRank": 2,
+   "BothSexesLifeExpectancy": 83.4,
+   "FemaleRank": 6,
+   "FemaleLifeExpectancy": 85.3,
+   "MaleRank": 1,
+   "MaleLifeExpectancy": 81.3
+ },
+ {
+   "Country": "Singapore",
+   "BothSexesRank": 3,
+   "BothSexesLifeExpectancy": 83.1,
+   "FemaleRank": 2,
+   "FemaleLifeExpectancy": 86.1,
+   "MaleRank": 10,
+   "MaleLifeExpectancy": 80
+ },
+ {
+   "Country": "Spain",
+   "BothSexesRank": 4,
+   "BothSexesLifeExpectancy": 82.8,
+   "FemaleRank": 3,
+   "FemaleLifeExpectancy": 85.5,
+   "MaleRank": 9,
+   "MaleLifeExpectancy": 80.1
+ },
+ {
+   "Country": "Australia",
+   "BothSexesRank": 4,
+   "BothSexesLifeExpectancy": 82.8,
+   "FemaleRank": 7,
+   "FemaleLifeExpectancy": 84.8,
+   "MaleRank": 3,
+   "MaleLifeExpectancy": 80.9
+ },
+ {
+   "Country": "Italy",
+   "BothSexesRank": 6,
+   "BothSexesLifeExpectancy": 82.7,
+   "FemaleRank": 7,
+   "FemaleLifeExpectancy": 84.8,
+   "MaleRank": 6,
+   "MaleLifeExpectancy": 80.5
+ },
+ {
+   "Country": "Iceland",
+   "BothSexesRank": 6,
+   "BothSexesLifeExpectancy": 82.7,
+   "FemaleRank": 10,
+   "FemaleLifeExpectancy": 84.1,
+   "MaleRank": 2,
+   "MaleLifeExpectancy": 81.2
+ },
+ {
+   "Country": "Israel",
+   "BothSexesRank": 8,
+   "BothSexesLifeExpectancy": 82.5,
+   "FemaleRank": 9,
+   "FemaleLifeExpectancy": 84.3,
+   "MaleRank": 5,
+   "MaleLifeExpectancy": 80.6
+ },
+ {
+   "Country": "France",
+   "BothSexesRank": 9,
+   "BothSexesLifeExpectancy": 82.4,
+   "FemaleRank": 5,
+   "FemaleLifeExpectancy": 85.4,
+   "MaleRank": 16,
+   "MaleLifeExpectancy": 79.4
+ },
+ {
+   "Country": "Sweden",
+   "BothSexesRank": 9,
+   "BothSexesLifeExpectancy": 82.4,
+   "FemaleRank": 12,
+   "FemaleLifeExpectancy": 84,
+   "MaleRank": 4,
+   "MaleLifeExpectancy": 80.7
+ },
+ {
+   "Country": "South Korea",
+   "BothSexesRank": 11,
+   "BothSexesLifeExpectancy": 82.3,
+   "FemaleRank": 3,
+   "FemaleLifeExpectancy": 85.5,
+   "MaleRank": 20,
+   "MaleLifeExpectancy": 78.8
+ },
+ {
+   "Country": "Canada",
+   "BothSexesRank": 12,
+   "BothSexesLifeExpectancy": 82.2,
+   "FemaleRank": 10,
+   "FemaleLifeExpectancy": 84.1,
+   "MaleRank": 8,
+   "MaleLifeExpectancy": 80.2
+ },
+ {
+   "Country": "Luxembourg",
+   "BothSexesRank": 13,
+   "BothSexesLifeExpectancy": 82,
+   "FemaleRank": 12,
+   "FemaleLifeExpectancy": 84,
+   "MaleRank": 13,
+   "MaleLifeExpectancy": 79.8
+ },
+ {
+   "Country": "Netherlands",
+   "BothSexesRank": 14,
+   "BothSexesLifeExpectancy": 81.9,
+   "FemaleRank": 20,
+   "FemaleLifeExpectancy": 83.6,
+   "MaleRank": 10,
+   "MaleLifeExpectancy": 80
+ },
+ {
+   "Country": "Norway",
+   "BothSexesRank": 15,
+   "BothSexesLifeExpectancy": 81.8,
+   "FemaleRank": 17,
+   "FemaleLifeExpectancy": 83.7,
+   "MaleRank": 13,
+   "MaleLifeExpectancy": 79.8
+ },
+ {
+   "Country": "Malta",
+   "BothSexesRank": 16,
+   "BothSexesLifeExpectancy": 81.7,
+   "FemaleRank": 17,
+   "FemaleLifeExpectancy": 83.7,
+   "MaleRank": 15,
+   "MaleLifeExpectancy": 79.7
+ },
+ {
+   "Country": "New Zealand",
+   "BothSexesRank": 17,
+   "BothSexesLifeExpectancy": 81.6,
+   "FemaleRank": 26,
+   "FemaleLifeExpectancy": 83.3,
+   "MaleRank": 10,
+   "MaleLifeExpectancy": 80
+ },
+ {
+   "Country": "Austria",
+   "BothSexesRank": 18,
+   "BothSexesLifeExpectancy": 81.5,
+   "FemaleRank": 14,
+   "FemaleLifeExpectancy": 83.9,
+   "MaleRank": 19,
+   "MaleLifeExpectancy": 79
+ },
+ {
+   "Country": "Ireland",
+   "BothSexesRank": 19,
+   "BothSexesLifeExpectancy": 81.4,
+   "FemaleRank": 23,
+   "FemaleLifeExpectancy": 83.4,
+   "MaleRank": 16,
+   "MaleLifeExpectancy": 79.4
+ },
+ {
+   "Country": "United Kingdom",
+   "BothSexesRank": 20,
+   "BothSexesLifeExpectancy": 81.2,
+   "FemaleRank": 27,
+   "FemaleLifeExpectancy": 83,
+   "MaleRank": 16,
+   "MaleLifeExpectancy": 79.4
+ },
+ {
+   "Country": "Portugal",
+   "BothSexesRank": 21,
+   "BothSexesLifeExpectancy": 81.1,
+   "FemaleRank": 14,
+   "FemaleLifeExpectancy": 83.9,
+   "MaleRank": 27,
+   "MaleLifeExpectancy": 78.2
+ },
+ {
+   "Country": "Finland",
+   "BothSexesRank": 21,
+   "BothSexesLifeExpectancy": 81.1,
+   "FemaleRank": 16,
+   "FemaleLifeExpectancy": 83.8,
+   "MaleRank": 24,
+   "MaleLifeExpectancy": 78.3
+ },
+ {
+   "Country": "Belgium",
+   "BothSexesRank": 21,
+   "BothSexesLifeExpectancy": 81.1,
+   "FemaleRank": 22,
+   "FemaleLifeExpectancy": 83.5,
+   "MaleRank": 22,
+   "MaleLifeExpectancy": 78.6
+ },
+ {
+   "Country": "Greece",
+   "BothSexesRank": 24,
+   "BothSexesLifeExpectancy": 81,
+   "FemaleRank": 20,
+   "FemaleLifeExpectancy": 83.6,
+   "MaleRank": 24,
+   "MaleLifeExpectancy": 78.3
+ },
+ {
+   "Country": "Germany",
+   "BothSexesRank": 24,
+   "BothSexesLifeExpectancy": 81,
+   "FemaleRank": 23,
+   "FemaleLifeExpectancy": 83.4,
+   "MaleRank": 21,
+   "MaleLifeExpectancy": 78.7
+ },
+ {
+   "Country": "Slovenia",
+   "BothSexesRank": 26,
+   "BothSexesLifeExpectancy": 80.8,
+   "FemaleRank": 17,
+   "FemaleLifeExpectancy": 83.7,
+   "MaleRank": 28,
+   "MaleLifeExpectancy": 77.9
+ },
+ {
+   "Country": "Denmark",
+   "BothSexesRank": 27,
+   "BothSexesLifeExpectancy": 80.6,
+   "FemaleRank": 29,
+   "FemaleLifeExpectancy": 82.5,
+   "MaleRank": 22,
+   "MaleLifeExpectancy": 78.6
+ },
+ {
+   "Country": "Chile",
+   "BothSexesRank": 28,
+   "BothSexesLifeExpectancy": 80.5,
+   "FemaleRank": 23,
+   "FemaleLifeExpectancy": 83.4,
+   "MaleRank": 29,
+   "MaleLifeExpectancy": 77.4
+ },
+ {
+   "Country": "Cyprus",
+   "BothSexesRank": 28,
+   "BothSexesLifeExpectancy": 80.5,
+   "FemaleRank": 28,
+   "FemaleLifeExpectancy": 82.7,
+   "MaleRank": 24,
+   "MaleLifeExpectancy": 78.3
+ },
+ {
+   "Country": "Costa Rica",
+   "BothSexesRank": 30,
+   "BothSexesLifeExpectancy": 79.6,
+   "FemaleRank": 30,
+   "FemaleLifeExpectancy": 82.2,
+   "MaleRank": 31,
+   "MaleLifeExpectancy": 77.1
+ },
+ {
+   "Country": "United States",
+   "BothSexesRank": 31,
+   "BothSexesLifeExpectancy": 79.3,
+   "FemaleRank": 33,
+   "FemaleLifeExpectancy": 81.6,
+   "MaleRank": 32,
+   "MaleLifeExpectancy": 76.9
+ },
+ {
+   "Country": "Cuba",
+   "BothSexesRank": 32,
+   "BothSexesLifeExpectancy": 79.1,
+   "FemaleRank": 34,
+   "FemaleLifeExpectancy": 81.4,
+   "MaleRank": 32,
+   "MaleLifeExpectancy": 76.9
+ },
+ {
+   "Country": "Czech Republic",
+   "BothSexesRank": 33,
+   "BothSexesLifeExpectancy": 78.8,
+   "FemaleRank": 32,
+   "FemaleLifeExpectancy": 81.7,
+   "MaleRank": 38,
+   "MaleLifeExpectancy": 75.9
+ },
+ {
+   "Country": "Maldives",
+   "BothSexesRank": 34,
+   "BothSexesLifeExpectancy": 78.5,
+   "FemaleRank": 41,
+   "FemaleLifeExpectancy": 80.2,
+   "MaleRank": 32,
+   "MaleLifeExpectancy": 76.9
+ },
+ {
+   "Country": "Qatar",
+   "BothSexesRank": 35,
+   "BothSexesLifeExpectancy": 78.2,
+   "FemaleRank": 43,
+   "FemaleLifeExpectancy": 80,
+   "MaleRank": 29,
+   "MaleLifeExpectancy": 77.4
+ },
+ {
+   "Country": "Croatia",
+   "BothSexesRank": 36,
+   "BothSexesLifeExpectancy": 78,
+   "FemaleRank": 36,
+   "FemaleLifeExpectancy": 81.2,
+   "MaleRank": 42,
+   "MaleLifeExpectancy": 74.7
+ },
+ {
+   "Country": "Panama",
+   "BothSexesRank": 37,
+   "BothSexesLifeExpectancy": 77.8,
+   "FemaleRank": 37,
+   "FemaleLifeExpectancy": 81.1,
+   "MaleRank": 42,
+   "MaleLifeExpectancy": 74.7
+ },
+ {
+   "Country": "Albania",
+   "BothSexesRank": 37,
+   "BothSexesLifeExpectancy": 77.8,
+   "FemaleRank": 38,
+   "FemaleLifeExpectancy": 80.7,
+   "MaleRank": 39,
+   "MaleLifeExpectancy": 75.1
+ },
+ {
+   "Country": "Brunei",
+   "BothSexesRank": 39,
+   "BothSexesLifeExpectancy": 77.7,
+   "FemaleRank": 47,
+   "FemaleLifeExpectancy": 79.2,
+   "MaleRank": 36,
+   "MaleLifeExpectancy": 76.3
+ },
+ {
+   "Country": "Estonia",
+   "BothSexesRank": 40,
+   "BothSexesLifeExpectancy": 77.6,
+   "FemaleRank": 31,
+   "FemaleLifeExpectancy": 82,
+   "MaleRank": 65,
+   "MaleLifeExpectancy": 72.7
+ },
+ {
+   "Country": "Poland",
+   "BothSexesRank": 41,
+   "BothSexesLifeExpectancy": 77.5,
+   "FemaleRank": 35,
+   "FemaleLifeExpectancy": 81.3,
+   "MaleRank": 52,
+   "MaleLifeExpectancy": 73.6
+ },
+ {
+   "Country": "Bosnia and Herzegovina",
+   "BothSexesRank": 42,
+   "BothSexesLifeExpectancy": 77.4,
+   "FemaleRank": 45,
+   "FemaleLifeExpectancy": 79.7,
+   "MaleRank": 40,
+   "MaleLifeExpectancy": 75
+ },
+ {
+   "Country": "United Arab Emirates",
+   "BothSexesRank": 43,
+   "BothSexesLifeExpectancy": 77.1,
+   "FemaleRank": 57,
+   "FemaleLifeExpectancy": 78.6,
+   "MaleRank": 35,
+   "MaleLifeExpectancy": 76.4
+ },
+ {
+   "Country": "Uruguay",
+   "BothSexesRank": 44,
+   "BothSexesLifeExpectancy": 77,
+   "FemaleRank": 40,
+   "FemaleLifeExpectancy": 80.4,
+   "MaleRank": 56,
+   "MaleLifeExpectancy": 73.3
+ },
+ {
+   "Country": "Bahrain",
+   "BothSexesRank": 45,
+   "BothSexesLifeExpectancy": 76.9,
+   "FemaleRank": 71,
+   "FemaleLifeExpectancy": 77.9,
+   "MaleRank": 37,
+   "MaleLifeExpectancy": 76.2
+ },
+ {
+   "Country": "Slovakia",
+   "BothSexesRank": 46,
+   "BothSexesLifeExpectancy": 76.7,
+   "FemaleRank": 41,
+   "FemaleLifeExpectancy": 80.2,
+   "MaleRank": 62,
+   "MaleLifeExpectancy": 72.9
+ },
+ {
+   "Country": "Mexico",
+   "BothSexesRank": 46,
+   "BothSexesLifeExpectancy": 76.7,
+   "FemaleRank": 46,
+   "FemaleLifeExpectancy": 79.5,
+   "MaleRank": 48,
+   "MaleLifeExpectancy": 73.9
+ },
+ {
+   "Country": "Oman",
+   "BothSexesRank": 48,
+   "BothSexesLifeExpectancy": 76.6,
+   "FemaleRank": 47,
+   "FemaleLifeExpectancy": 79.2,
+   "MaleRank": 40,
+   "MaleLifeExpectancy": 75
+ },
+ {
+   "Country": "Antigua and Barbuda",
+   "BothSexesRank": 49,
+   "BothSexesLifeExpectancy": 76.4,
+   "FemaleRank": 57,
+   "FemaleLifeExpectancy": 78.6,
+   "MaleRank": 46,
+   "MaleLifeExpectancy": 74.1
+ },
+ {
+   "Country": "Argentina",
+   "BothSexesRank": 50,
+   "BothSexesLifeExpectancy": 76.3,
+   "FemaleRank": 44,
+   "FemaleLifeExpectancy": 79.9,
+   "MaleRank": 65,
+   "MaleLifeExpectancy": 72.7
+ },
+ {
+   "Country": "Ecuador",
+   "BothSexesRank": 51,
+   "BothSexesLifeExpectancy": 76.2,
+   "FemaleRank": 53,
+   "FemaleLifeExpectancy": 79,
+   "MaleRank": 53,
+   "MaleLifeExpectancy": 73.5
+ },
+ {
+   "Country": "Jamaica",
+   "BothSexesRank": 51,
+   "BothSexesLifeExpectancy": 76.2,
+   "FemaleRank": 57,
+   "FemaleLifeExpectancy": 78.6,
+   "MaleRank": 48,
+   "MaleLifeExpectancy": 73.9
+ },
+ {
+   "Country": "Bahamas",
+   "BothSexesRank": 53,
+   "BothSexesLifeExpectancy": 76.1,
+   "FemaleRank": 50,
+   "FemaleLifeExpectancy": 79.1,
+   "MaleRank": 62,
+   "MaleLifeExpectancy": 72.9
+ },
+ {
+   "Country": "Montenegro",
+   "BothSexesRank": 53,
+   "BothSexesLifeExpectancy": 76.1,
+   "FemaleRank": 65,
+   "FemaleLifeExpectancy": 78.1,
+   "MaleRank": 46,
+   "MaleLifeExpectancy": 74.1
+ },
+ {
+   "Country": "China",
+   "BothSexesRank": 53,
+   "BothSexesLifeExpectancy": 76.1,
+   "FemaleRank": 80,
+   "FemaleLifeExpectancy": 77.6,
+   "MaleRank": 44,
+   "MaleLifeExpectancy": 74.6
+ },
+ {
+   "Country": "Vietnam",
+   "BothSexesRank": 56,
+   "BothSexesLifeExpectancy": 76,
+   "FemaleRank": 38,
+   "FemaleLifeExpectancy": 80.7,
+   "MaleRank": 81,
+   "MaleLifeExpectancy": 71.3
+ },
+ {
+   "Country": "Hungary",
+   "BothSexesRank": 57,
+   "BothSexesLifeExpectancy": 75.9,
+   "FemaleRank": 50,
+   "FemaleLifeExpectancy": 79.1,
+   "MaleRank": 71,
+   "MaleLifeExpectancy": 72.3
+ },
+ {
+   "Country": "Turkey",
+   "BothSexesRank": 58,
+   "BothSexesLifeExpectancy": 75.8,
+   "FemaleRank": 54,
+   "FemaleLifeExpectancy": 78.9,
+   "MaleRank": 68,
+   "MaleLifeExpectancy": 72.6
+ },
+ {
+   "Country": "Macedonia",
+   "BothSexesRank": 59,
+   "BothSexesLifeExpectancy": 75.7,
+   "FemaleRank": 76,
+   "FemaleLifeExpectancy": 77.8,
+   "MaleRank": 53,
+   "MaleLifeExpectancy": 73.5
+ },
+ {
+   "Country": "Serbia",
+   "BothSexesRank": 60,
+   "BothSexesLifeExpectancy": 75.6,
+   "FemaleRank": 61,
+   "FemaleLifeExpectancy": 78.4,
+   "MaleRank": 62,
+   "MaleLifeExpectancy": 72.9
+ },
+ {
+   "Country": "Algeria",
+   "BothSexesRank": 60,
+   "BothSexesLifeExpectancy": 75.6,
+   "FemaleRank": 81,
+   "FemaleLifeExpectancy": 77.5,
+   "MaleRank": 50,
+   "MaleLifeExpectancy": 73.8
+ },
+ {
+   "Country": "Peru",
+   "BothSexesRank": 62,
+   "BothSexesLifeExpectancy": 75.5,
+   "FemaleRank": 66,
+   "FemaleLifeExpectancy": 78,
+   "MaleRank": 59,
+   "MaleLifeExpectancy": 73.1
+ },
+ {
+   "Country": "Barbados",
+   "BothSexesRank": 62,
+   "BothSexesLifeExpectancy": 75.5,
+   "FemaleRank": 71,
+   "FemaleLifeExpectancy": 77.9,
+   "MaleRank": 59,
+   "MaleLifeExpectancy": 73.1
+ },
+ {
+   "Country": "Iran",
+   "BothSexesRank": 62,
+   "BothSexesLifeExpectancy": 75.5,
+   "FemaleRank": 86,
+   "FemaleLifeExpectancy": 76.6,
+   "MaleRank": 45,
+   "MaleLifeExpectancy": 74.5
+ },
+ {
+   "Country": "Tunisia",
+   "BothSexesRank": 65,
+   "BothSexesLifeExpectancy": 75.3,
+   "FemaleRank": 76,
+   "FemaleLifeExpectancy": 77.8,
+   "MaleRank": 61,
+   "MaleLifeExpectancy": 73
+ },
+ {
+   "Country": "Saint Lucia",
+   "BothSexesRank": 66,
+   "BothSexesLifeExpectancy": 75.2,
+   "FemaleRank": 71,
+   "FemaleLifeExpectancy": 77.9,
+   "MaleRank": 68,
+   "MaleLifeExpectancy": 72.6
+ },
+ {
+   "Country": "Romania",
+   "BothSexesRank": 67,
+   "BothSexesLifeExpectancy": 75,
+   "FemaleRank": 55,
+   "FemaleLifeExpectancy": 78.8,
+   "MaleRank": 78,
+   "MaleLifeExpectancy": 71.4
+ },
+ {
+   "Country": "Brazil",
+   "BothSexesRank": 67,
+   "BothSexesLifeExpectancy": 75,
+   "FemaleRank": 56,
+   "FemaleLifeExpectancy": 78.7,
+   "MaleRank": 78,
+   "MaleLifeExpectancy": 71.4
+ },
+ {
+   "Country": "Malaysia",
+   "BothSexesRank": 67,
+   "BothSexesLifeExpectancy": 75,
+   "FemaleRank": 83,
+   "FemaleLifeExpectancy": 77.3,
+   "MaleRank": 65,
+   "MaleLifeExpectancy": 72.7
+ },
+ {
+   "Country": "Sri Lanka",
+   "BothSexesRank": 70,
+   "BothSexesLifeExpectancy": 74.9,
+   "FemaleRank": 63,
+   "FemaleLifeExpectancy": 78.3,
+   "MaleRank": 75,
+   "MaleLifeExpectancy": 71.6
+ },
+ {
+   "Country": "Thailand",
+   "BothSexesRank": 70,
+   "BothSexesLifeExpectancy": 74.9,
+   "FemaleRank": 66,
+   "FemaleLifeExpectancy": 78,
+   "MaleRank": 74,
+   "MaleLifeExpectancy": 71.9
+ },
+ {
+   "Country": "Lebanon",
+   "BothSexesRank": 70,
+   "BothSexesLifeExpectancy": 74.9,
+   "FemaleRank": 87,
+   "FemaleLifeExpectancy": 76.5,
+   "MaleRank": 53,
+   "MaleLifeExpectancy": 73.5
+ },
+ {
+   "Country": "Colombia",
+   "BothSexesRank": 73,
+   "BothSexesLifeExpectancy": 74.8,
+   "FemaleRank": 61,
+   "FemaleLifeExpectancy": 78.4,
+   "MaleRank": 84,
+   "MaleLifeExpectancy": 71.2
+ },
+ {
+   "Country": "Nicaragua",
+   "BothSexesRank": 73,
+   "BothSexesLifeExpectancy": 74.8,
+   "FemaleRank": 71,
+   "FemaleLifeExpectancy": 77.9,
+   "MaleRank": 77,
+   "MaleLifeExpectancy": 71.5
+ },
+ {
+   "Country": "Armenia",
+   "BothSexesRank": 73,
+   "BothSexesLifeExpectancy": 74.8,
+   "FemaleRank": 79,
+   "FemaleLifeExpectancy": 77.7,
+   "MaleRank": 75,
+   "MaleLifeExpectancy": 71.6
+ },
+ {
+   "Country": "Kuwait",
+   "BothSexesRank": 76,
+   "BothSexesLifeExpectancy": 74.7,
+   "FemaleRank": 93,
+   "FemaleLifeExpectancy": 76,
+   "MaleRank": 51,
+   "MaleLifeExpectancy": 73.7
+ },
+ {
+   "Country": "Latvia",
+   "BothSexesRank": 77,
+   "BothSexesLifeExpectancy": 74.6,
+   "FemaleRank": 47,
+   "FemaleLifeExpectancy": 79.2,
+   "MaleRank": 95,
+   "MaleLifeExpectancy": 69.6
+ },
+ {
+   "Country": "Mauritius",
+   "BothSexesRank": 77,
+   "BothSexesLifeExpectancy": 74.6,
+   "FemaleRank": 76,
+   "FemaleLifeExpectancy": 77.8,
+   "MaleRank": 78,
+   "MaleLifeExpectancy": 71.4
+ },
+ {
+   "Country": "Honduras",
+   "BothSexesRank": 77,
+   "BothSexesLifeExpectancy": 74.6,
+   "FemaleRank": 85,
+   "FemaleLifeExpectancy": 77,
+   "MaleRank": 71,
+   "MaleLifeExpectancy": 72.3
+ },
+ {
+   "Country": "Bulgaria",
+   "BothSexesRank": 80,
+   "BothSexesLifeExpectancy": 74.5,
+   "FemaleRank": 66,
+   "FemaleLifeExpectancy": 78,
+   "MaleRank": 86,
+   "MaleLifeExpectancy": 71.1
+ },
+ {
+   "Country": "Saudi Arabia",
+   "BothSexesRank": 80,
+   "BothSexesLifeExpectancy": 74.5,
+   "FemaleRank": 93,
+   "FemaleLifeExpectancy": 76,
+   "MaleRank": 58,
+   "MaleLifeExpectancy": 73.2
+ },
+ {
+   "Country": "Georgia",
+   "BothSexesRank": 82,
+   "BothSexesLifeExpectancy": 74.4,
+   "FemaleRank": 63,
+   "FemaleLifeExpectancy": 78.3,
+   "MaleRank": 91,
+   "MaleLifeExpectancy": 70.3
+ },
+ {
+   "Country": "Morocco",
+   "BothSexesRank": 83,
+   "BothSexesLifeExpectancy": 74.3,
+   "FemaleRank": 99,
+   "FemaleLifeExpectancy": 75.4,
+   "MaleRank": 56,
+   "MaleLifeExpectancy": 73.3
+ },
+ {
+   "Country": "Venezuela",
+   "BothSexesRank": 84,
+   "BothSexesLifeExpectancy": 74.1,
+   "FemaleRank": 60,
+   "FemaleLifeExpectancy": 78.5,
+   "MaleRank": 94,
+   "MaleLifeExpectancy": 70
+ },
+ {
+   "Country": "Jordan",
+   "BothSexesRank": 84,
+   "BothSexesLifeExpectancy": 74.1,
+   "FemaleRank": 96,
+   "FemaleLifeExpectancy": 75.9,
+   "MaleRank": 70,
+   "MaleLifeExpectancy": 72.5
+ },
+ {
+   "Country": "Samoa",
+   "BothSexesRank": 86,
+   "BothSexesLifeExpectancy": 74,
+   "FemaleRank": 81,
+   "FemaleLifeExpectancy": 77.5,
+   "MaleRank": 87,
+   "MaleLifeExpectancy": 70.9
+ },
+ {
+   "Country": "Paraguay",
+   "BothSexesRank": 86,
+   "BothSexesLifeExpectancy": 74,
+   "FemaleRank": 93,
+   "FemaleLifeExpectancy": 76,
+   "MaleRank": 73,
+   "MaleLifeExpectancy": 72.2
+ },
+ {
+   "Country": "Dominican Republic",
+   "BothSexesRank": 88,
+   "BothSexesLifeExpectancy": 73.9,
+   "FemaleRank": 84,
+   "FemaleLifeExpectancy": 77.1,
+   "MaleRank": 87,
+   "MaleLifeExpectancy": 70.9
+ },
+ {
+   "Country": "Lithuania",
+   "BothSexesRank": 89,
+   "BothSexesLifeExpectancy": 73.6,
+   "FemaleRank": 50,
+   "FemaleLifeExpectancy": 79.1,
+   "MaleRank": 104,
+   "MaleLifeExpectancy": 68.1
+ },
+ {
+   "Country": "Grenada",
+   "BothSexesRank": 89,
+   "BothSexesLifeExpectancy": 73.6,
+   "FemaleRank": 91,
+   "FemaleLifeExpectancy": 76.1,
+   "MaleRank": 84,
+   "MaleLifeExpectancy": 71.2
+ },
+ {
+   "Country": "El Salvador",
+   "BothSexesRank": 91,
+   "BothSexesLifeExpectancy": 73.5,
+   "FemaleRank": 71,
+   "FemaleLifeExpectancy": 77.9,
+   "MaleRank": 99,
+   "MaleLifeExpectancy": 68.8
+ },
+ {
+   "Country": "Tonga",
+   "BothSexesRank": 91,
+   "BothSexesLifeExpectancy": 73.5,
+   "FemaleRank": 88,
+   "FemaleLifeExpectancy": 76.4,
+   "MaleRank": 89,
+   "MaleLifeExpectancy": 70.6
+ },
+ {
+   "Country": "Cape Verde",
+   "BothSexesRank": 93,
+   "BothSexesLifeExpectancy": 73.3,
+   "FemaleRank": 103,
+   "FemaleLifeExpectancy": 75,
+   "MaleRank": 81,
+   "MaleLifeExpectancy": 71.3
+ },
+ {
+   "Country": "Seychelles",
+   "BothSexesRank": 94,
+   "BothSexesLifeExpectancy": 73.2,
+   "FemaleRank": 66,
+   "FemaleLifeExpectancy": 78,
+   "MaleRank": 98,
+   "MaleLifeExpectancy": 69.1
+ },
+ {
+   "Country": "Saint Vincent and the Grenadines",
+   "BothSexesRank": 94,
+   "BothSexesLifeExpectancy": 73.2,
+   "FemaleRank": 100,
+   "FemaleLifeExpectancy": 75.2,
+   "MaleRank": 81,
+   "MaleLifeExpectancy": 71.3
+ },
+ {
+   "Country": "Azerbaijan",
+   "BothSexesRank": 96,
+   "BothSexesLifeExpectancy": 72.7,
+   "FemaleRank": 97,
+   "FemaleLifeExpectancy": 75.8,
+   "MaleRank": 95,
+   "MaleLifeExpectancy": 69.6
+ },
+ {
+   "Country": "Libya",
+   "BothSexesRank": 96,
+   "BothSexesLifeExpectancy": 72.7,
+   "FemaleRank": 98,
+   "FemaleLifeExpectancy": 75.6,
+   "MaleRank": 92,
+   "MaleLifeExpectancy": 70.1
+ },
+ {
+   "Country": "Belarus",
+   "BothSexesRank": 98,
+   "BothSexesLifeExpectancy": 72.3,
+   "FemaleRank": 66,
+   "FemaleLifeExpectancy": 78,
+   "MaleRank": 119,
+   "MaleLifeExpectancy": 66.5
+ },
+ {
+   "Country": "Moldova",
+   "BothSexesRank": 99,
+   "BothSexesLifeExpectancy": 72.1,
+   "FemaleRank": 90,
+   "FemaleLifeExpectancy": 76.2,
+   "MaleRank": 106,
+   "MaleLifeExpectancy": 67.9
+ },
+ {
+   "Country": "Vanuatu",
+   "BothSexesRank": 100,
+   "BothSexesLifeExpectancy": 72,
+   "FemaleRank": 107,
+   "FemaleLifeExpectancy": 74,
+   "MaleRank": 92,
+   "MaleLifeExpectancy": 70.1
+ },
+ {
+   "Country": "Guatemala",
+   "BothSexesRank": 101,
+   "BothSexesLifeExpectancy": 71.9,
+   "FemaleRank": 100,
+   "FemaleLifeExpectancy": 75.2,
+   "MaleRank": 102,
+   "MaleLifeExpectancy": 68.5
+ },
+ {
+   "Country": "Bangladesh",
+   "BothSexesRank": 102,
+   "BothSexesLifeExpectancy": 71.8,
+   "FemaleRank": 113,
+   "FemaleLifeExpectancy": 73.1,
+   "MaleRank": 89,
+   "MaleLifeExpectancy": 70.6
+ },
+ {
+   "Country": "Suriname",
+   "BothSexesRank": 103,
+   "BothSexesLifeExpectancy": 71.6,
+   "FemaleRank": 105,
+   "FemaleLifeExpectancy": 74.7,
+   "MaleRank": 101,
+   "MaleLifeExpectancy": 68.6
+ },
+ {
+   "Country": "Ukraine",
+   "BothSexesRank": 104,
+   "BothSexesLifeExpectancy": 71.3,
+   "FemaleRank": 91,
+   "FemaleLifeExpectancy": 76.1,
+   "MaleRank": 120,
+   "MaleLifeExpectancy": 66.3
+ },
+ {
+   "Country": "Trinidad and Tobago",
+   "BothSexesRank": 105,
+   "BothSexesLifeExpectancy": 71.2,
+   "FemaleRank": 104,
+   "FemaleLifeExpectancy": 74.8,
+   "MaleRank": 106,
+   "MaleLifeExpectancy": 67.9
+ },
+ {
+   "Country": "Kyrgyzstan",
+   "BothSexesRank": 106,
+   "BothSexesLifeExpectancy": 71.1,
+   "FemaleRank": 102,
+   "FemaleLifeExpectancy": 75.1,
+   "MaleRank": 111,
+   "MaleLifeExpectancy": 67.2
+ },
+ {
+   "Country": "Egypt",
+   "BothSexesRank": 107,
+   "BothSexesLifeExpectancy": 70.9,
+   "FemaleRank": 111,
+   "FemaleLifeExpectancy": 73.2,
+   "MaleRank": 99,
+   "MaleLifeExpectancy": 68.8
+ },
+ {
+   "Country": "Bolivia",
+   "BothSexesRank": 108,
+   "BothSexesLifeExpectancy": 70.7,
+   "FemaleRank": 110,
+   "FemaleLifeExpectancy": 73.3,
+   "MaleRank": 103,
+   "MaleLifeExpectancy": 68.2
+ },
+ {
+   "Country": "North Korea",
+   "BothSexesRank": 109,
+   "BothSexesLifeExpectancy": 70.6,
+   "FemaleRank": 107,
+   "FemaleLifeExpectancy": 74,
+   "MaleRank": 113,
+   "MaleLifeExpectancy": 67
+ },
+ {
+   "Country": "Russia",
+   "BothSexesRank": 110,
+   "BothSexesLifeExpectancy": 70.5,
+   "FemaleRank": 89,
+   "FemaleLifeExpectancy": 76.3,
+   "MaleRank": 127,
+   "MaleLifeExpectancy": 64.7
+ },
+ {
+   "Country": "Kazakhstan",
+   "BothSexesRank": 111,
+   "BothSexesLifeExpectancy": 70.2,
+   "FemaleRank": 105,
+   "FemaleLifeExpectancy": 74.7,
+   "MaleRank": 123,
+   "MaleLifeExpectancy": 65.7
+ },
+ {
+   "Country": "Belize",
+   "BothSexesRank": 112,
+   "BothSexesLifeExpectancy": 70.1,
+   "FemaleRank": 113,
+   "FemaleLifeExpectancy": 73.1,
+   "MaleRank": 110,
+   "MaleLifeExpectancy": 67.5
+ },
+ {
+   "Country": "Fiji",
+   "BothSexesRank": 113,
+   "BothSexesLifeExpectancy": 69.9,
+   "FemaleRank": 113,
+   "FemaleLifeExpectancy": 73.1,
+   "MaleRank": 113,
+   "MaleLifeExpectancy": 67
+ },
+ {
+   "Country": "Bhutan",
+   "BothSexesRank": 114,
+   "BothSexesLifeExpectancy": 69.8,
+   "FemaleRank": 126,
+   "FemaleLifeExpectancy": 70.1,
+   "MaleRank": 97,
+   "MaleLifeExpectancy": 69.5
+ },
+ {
+   "Country": "Tajikistan",
+   "BothSexesRank": 115,
+   "BothSexesLifeExpectancy": 69.7,
+   "FemaleRank": 109,
+   "FemaleLifeExpectancy": 73.6,
+   "MaleRank": 116,
+   "MaleLifeExpectancy": 66.6
+ },
+ {
+   "Country": "Uzbekistan",
+   "BothSexesRank": 116,
+   "BothSexesLifeExpectancy": 69.4,
+   "FemaleRank": 116,
+   "FemaleLifeExpectancy": 72.7,
+   "MaleRank": 122,
+   "MaleLifeExpectancy": 66.1
+ },
+ {
+   "Country": "Micronesia",
+   "BothSexesRank": 116,
+   "BothSexesLifeExpectancy": 69.4,
+   "FemaleRank": 124,
+   "FemaleLifeExpectancy": 70.6,
+   "MaleRank": 104,
+   "MaleLifeExpectancy": 68.1
+ },
+ {
+   "Country": "Solomon Islands",
+   "BothSexesRank": 118,
+   "BothSexesLifeExpectancy": 69.2,
+   "FemaleRank": 121,
+   "FemaleLifeExpectancy": 70.8,
+   "MaleRank": 106,
+   "MaleLifeExpectancy": 67.9
+ },
+ {
+   "Country": "Nepal",
+   "BothSexesRank": 118,
+   "BothSexesLifeExpectancy": 69.2,
+   "FemaleRank": 121,
+   "FemaleLifeExpectancy": 70.8,
+   "MaleRank": 109,
+   "MaleLifeExpectancy": 67.7
+ },
+ {
+   "Country": "Indonesia",
+   "BothSexesRank": 120,
+   "BothSexesLifeExpectancy": 69.1,
+   "FemaleRank": 119,
+   "FemaleLifeExpectancy": 71.2,
+   "MaleRank": 112,
+   "MaleLifeExpectancy": 67.1
+ },
+ {
+   "Country": "Iraq",
+   "BothSexesRank": 121,
+   "BothSexesLifeExpectancy": 68.9,
+   "FemaleRank": 118,
+   "FemaleLifeExpectancy": 71.8,
+   "MaleRank": 121,
+   "MaleLifeExpectancy": 66.2
+ },
+ {
+   "Country": "Mongolia",
+   "BothSexesRank": 122,
+   "BothSexesLifeExpectancy": 68.8,
+   "FemaleRank": 111,
+   "FemaleLifeExpectancy": 73.2,
+   "MaleRank": 127,
+   "MaleLifeExpectancy": 64.7
+ },
+ {
+   "Country": "Cambodia",
+   "BothSexesRank": 123,
+   "BothSexesLifeExpectancy": 68.7,
+   "FemaleRank": 123,
+   "FemaleLifeExpectancy": 70.7,
+   "MaleRank": 116,
+   "MaleLifeExpectancy": 66.6
+ },
+ {
+   "Country": "Philippines",
+   "BothSexesRank": 124,
+   "BothSexesLifeExpectancy": 68.5,
+   "FemaleRank": 117,
+   "FemaleLifeExpectancy": 72,
+   "MaleRank": 126,
+   "MaleLifeExpectancy": 65.3
+ },
+ {
+   "Country": "Timor-Leste",
+   "BothSexesRank": 125,
+   "BothSexesLifeExpectancy": 68.3,
+   "FemaleRank": 126,
+   "FemaleLifeExpectancy": 70.1,
+   "MaleRank": 116,
+   "MaleLifeExpectancy": 66.6
+ },
+ {
+   "Country": "India",
+   "BothSexesRank": 125,
+   "BothSexesLifeExpectancy": 68.3,
+   "FemaleRank": 128,
+   "FemaleLifeExpectancy": 69.9,
+   "MaleRank": 115,
+   "MaleLifeExpectancy": 66.9
+ },
+ {
+   "Country": "Sao Tome and Principe",
+   "BothSexesRank": 127,
+   "BothSexesLifeExpectancy": 67.5,
+   "FemaleRank": 130,
+   "FemaleLifeExpectancy": 69.4,
+   "MaleRank": 124,
+   "MaleLifeExpectancy": 65.6
+ },
+ {
+   "Country": "Senegal",
+   "BothSexesRank": 128,
+   "BothSexesLifeExpectancy": 66.7,
+   "FemaleRank": 132,
+   "FemaleLifeExpectancy": 68.6,
+   "MaleRank": 130,
+   "MaleLifeExpectancy": 64.6
+ },
+ {
+   "Country": "Myanmar",
+   "BothSexesRank": 129,
+   "BothSexesLifeExpectancy": 66.6,
+   "FemaleRank": 133,
+   "FemaleLifeExpectancy": 68.5,
+   "MaleRank": 130,
+   "MaleLifeExpectancy": 64.6
+ },
+ {
+   "Country": "Pakistan",
+   "BothSexesRank": 130,
+   "BothSexesLifeExpectancy": 66.4,
+   "FemaleRank": 137,
+   "FemaleLifeExpectancy": 67.5,
+   "MaleRank": 125,
+   "MaleLifeExpectancy": 65.5
+ },
+ {
+   "Country": "Turkmenistan",
+   "BothSexesRank": 131,
+   "BothSexesLifeExpectancy": 66.3,
+   "FemaleRank": 125,
+   "FemaleLifeExpectancy": 70.5,
+   "MaleRank": 143,
+   "MaleLifeExpectancy": 62.2
+ },
+ {
+   "Country": "Kiribati",
+   "BothSexesRank": 131,
+   "BothSexesLifeExpectancy": 66.3,
+   "FemaleRank": 131,
+   "FemaleLifeExpectancy": 68.8,
+   "MaleRank": 136,
+   "MaleLifeExpectancy": 63.7
+ },
+ {
+   "Country": "Guyana",
+   "BothSexesRank": 133,
+   "BothSexesLifeExpectancy": 66.2,
+   "FemaleRank": 133,
+   "FemaleLifeExpectancy": 68.5,
+   "MaleRank": 134,
+   "MaleLifeExpectancy": 63.9
+ },
+ {
+   "Country": "Rwanda",
+   "BothSexesRank": 134,
+   "BothSexesLifeExpectancy": 66.1,
+   "FemaleRank": 120,
+   "FemaleLifeExpectancy": 71.1,
+   "MaleRank": 150,
+   "MaleLifeExpectancy": 60.9
+ },
+ {
+   "Country": "Gabon",
+   "BothSexesRank": 135,
+   "BothSexesLifeExpectancy": 66,
+   "FemaleRank": 138,
+   "FemaleLifeExpectancy": 67.2,
+   "MaleRank": 127,
+   "MaleLifeExpectancy": 64.7
+ },
+ {
+   "Country": "Namibia",
+   "BothSexesRank": 136,
+   "BothSexesLifeExpectancy": 65.8,
+   "FemaleRank": 135,
+   "FemaleLifeExpectancy": 68.3,
+   "MaleRank": 139,
+   "MaleLifeExpectancy": 63.1
+ },
+ {
+   "Country": "Botswana",
+   "BothSexesRank": 137,
+   "BothSexesLifeExpectancy": 65.7,
+   "FemaleRank": 136,
+   "FemaleLifeExpectancy": 68.1,
+   "MaleRank": 137,
+   "MaleLifeExpectancy": 63.3
+ },
+ {
+   "Country": "Laos",
+   "BothSexesRank": 137,
+   "BothSexesLifeExpectancy": 65.7,
+   "FemaleRank": 138,
+   "FemaleLifeExpectancy": 67.2,
+   "MaleRank": 133,
+   "MaleLifeExpectancy": 64.1
+ },
+ {
+   "Country": "Yemen",
+   "BothSexesRank": 137,
+   "BothSexesLifeExpectancy": 65.7,
+   "FemaleRank": 138,
+   "FemaleLifeExpectancy": 67.2,
+   "MaleRank": 132,
+   "MaleLifeExpectancy": 64.3
+ },
+ {
+   "Country": "Madagascar",
+   "BothSexesRank": 140,
+   "BothSexesLifeExpectancy": 65.5,
+   "FemaleRank": 141,
+   "FemaleLifeExpectancy": 67,
+   "MaleRank": 134,
+   "MaleLifeExpectancy": 63.9
+ },
+ {
+   "Country": "Ethiopia",
+   "BothSexesRank": 141,
+   "BothSexesLifeExpectancy": 64.8,
+   "FemaleRank": 143,
+   "FemaleLifeExpectancy": 66.8,
+   "MaleRank": 140,
+   "MaleLifeExpectancy": 62.8
+ },
+ {
+   "Country": "Eritrea",
+   "BothSexesRank": 142,
+   "BothSexesLifeExpectancy": 64.7,
+   "FemaleRank": 141,
+   "FemaleLifeExpectancy": 67,
+   "MaleRank": 141,
+   "MaleLifeExpectancy": 62.4
+ },
+ {
+   "Country": "Congo",
+   "BothSexesRank": 142,
+   "BothSexesLifeExpectancy": 64.7,
+   "FemaleRank": 144,
+   "FemaleLifeExpectancy": 66.3,
+   "MaleRank": 138,
+   "MaleLifeExpectancy": 63.2
+ },
+ {
+   "Country": "Syria",
+   "BothSexesRank": 144,
+   "BothSexesLifeExpectancy": 64.5,
+   "FemaleRank": 128,
+   "FemaleLifeExpectancy": 69.9,
+   "MaleRank": 154,
+   "MaleLifeExpectancy": 59.9
+ },
+ {
+   "Country": "Sudan",
+   "BothSexesRank": 145,
+   "BothSexesLifeExpectancy": 64.1,
+   "FemaleRank": 146,
+   "FemaleLifeExpectancy": 65.9,
+   "MaleRank": 141,
+   "MaleLifeExpectancy": 62.4
+ },
+ {
+   "Country": "Haiti",
+   "BothSexesRank": 146,
+   "BothSexesLifeExpectancy": 63.5,
+   "FemaleRank": 148,
+   "FemaleLifeExpectancy": 65.5,
+   "MaleRank": 147,
+   "MaleLifeExpectancy": 61.5
+ },
+ {
+   "Country": "Djibouti",
+   "BothSexesRank": 146,
+   "BothSexesLifeExpectancy": 63.5,
+   "FemaleRank": 150,
+   "FemaleLifeExpectancy": 65.3,
+   "MaleRank": 145,
+   "MaleLifeExpectancy": 61.8
+ },
+ {
+   "Country": "Comoros",
+   "BothSexesRank": 146,
+   "BothSexesLifeExpectancy": 63.5,
+   "FemaleRank": 151,
+   "FemaleLifeExpectancy": 65.2,
+   "MaleRank": 144,
+   "MaleLifeExpectancy": 61.9
+ },
+ {
+   "Country": "Kenya",
+   "BothSexesRank": 149,
+   "BothSexesLifeExpectancy": 63.4,
+   "FemaleRank": 147,
+   "FemaleLifeExpectancy": 65.8,
+   "MaleRank": 148,
+   "MaleLifeExpectancy": 61.1
+ },
+ {
+   "Country": "Mauritania",
+   "BothSexesRank": 150,
+   "BothSexesLifeExpectancy": 63.1,
+   "FemaleRank": 153,
+   "FemaleLifeExpectancy": 64.6,
+   "MaleRank": 146,
+   "MaleLifeExpectancy": 61.6
+ },
+ {
+   "Country": "South Africa",
+   "BothSexesRank": 151,
+   "BothSexesLifeExpectancy": 62.9,
+   "FemaleRank": 145,
+   "FemaleLifeExpectancy": 66.2,
+   "MaleRank": 158,
+   "MaleLifeExpectancy": 59.3
+ },
+ {
+   "Country": "Papua New Guinea",
+   "BothSexesRank": 151,
+   "BothSexesLifeExpectancy": 62.9,
+   "FemaleRank": 149,
+   "FemaleLifeExpectancy": 65.4,
+   "MaleRank": 152,
+   "MaleLifeExpectancy": 60.6
+ },
+ {
+   "Country": "Ghana",
+   "BothSexesRank": 153,
+   "BothSexesLifeExpectancy": 62.4,
+   "FemaleRank": 155,
+   "FemaleLifeExpectancy": 63.9,
+   "MaleRank": 149,
+   "MaleLifeExpectancy": 61
+ },
+ {
+   "Country": "Uganda",
+   "BothSexesRank": 154,
+   "BothSexesLifeExpectancy": 62.3,
+   "FemaleRank": 154,
+   "FemaleLifeExpectancy": 64.3,
+   "MaleRank": 153,
+   "MaleLifeExpectancy": 60.3
+ },
+ {
+   "Country": "Zambia",
+   "BothSexesRank": 155,
+   "BothSexesLifeExpectancy": 61.8,
+   "FemaleRank": 152,
+   "FemaleLifeExpectancy": 64.7,
+   "MaleRank": 161,
+   "MaleLifeExpectancy": 59
+ },
+ {
+   "Country": "Tanzania",
+   "BothSexesRank": 155,
+   "BothSexesLifeExpectancy": 61.8,
+   "FemaleRank": 156,
+   "FemaleLifeExpectancy": 63.8,
+   "MaleRank": 154,
+   "MaleLifeExpectancy": 59.9
+ },
+ {
+   "Country": "Niger",
+   "BothSexesRank": 155,
+   "BothSexesLifeExpectancy": 61.8,
+   "FemaleRank": 158,
+   "FemaleLifeExpectancy": 62.8,
+   "MaleRank": 150,
+   "MaleLifeExpectancy": 60.9
+ },
+ {
+   "Country": "Liberia",
+   "BothSexesRank": 158,
+   "BothSexesLifeExpectancy": 61.4,
+   "FemaleRank": 157,
+   "FemaleLifeExpectancy": 62.9,
+   "MaleRank": 156,
+   "MaleLifeExpectancy": 59.8
+ },
+ {
+   "Country": "Gambia",
+   "BothSexesRank": 159,
+   "BothSexesLifeExpectancy": 61.1,
+   "FemaleRank": 159,
+   "FemaleLifeExpectancy": 62.5,
+   "MaleRank": 156,
+   "MaleLifeExpectancy": 59.8
+ },
+ {
+   "Country": "Zimbabwe",
+   "BothSexesRank": 160,
+   "BothSexesLifeExpectancy": 60.7,
+   "FemaleRank": 160,
+   "FemaleLifeExpectancy": 62.3,
+   "MaleRank": 161,
+   "MaleLifeExpectancy": 59
+ },
+ {
+   "Country": "Afghanistan",
+   "BothSexesRank": 161,
+   "BothSexesLifeExpectancy": 60.5,
+   "FemaleRank": 161,
+   "FemaleLifeExpectancy": 61.9,
+   "MaleRank": 158,
+   "MaleLifeExpectancy": 59.3
+ },
+ {
+   "Country": "Benin",
+   "BothSexesRank": 162,
+   "BothSexesLifeExpectancy": 60,
+   "FemaleRank": 164,
+   "FemaleLifeExpectancy": 61.1,
+   "MaleRank": 163,
+   "MaleLifeExpectancy": 58.8
+ },
+ {
+   "Country": "Togo",
+   "BothSexesRank": 163,
+   "BothSexesLifeExpectancy": 59.9,
+   "FemaleRank": 164,
+   "FemaleLifeExpectancy": 61.1,
+   "MaleRank": 164,
+   "MaleLifeExpectancy": 58.6
+ },
+ {
+   "Country": "Burkina Faso",
+   "BothSexesRank": 163,
+   "BothSexesLifeExpectancy": 59.9,
+   "FemaleRank": 167,
+   "FemaleLifeExpectancy": 60.5,
+   "MaleRank": 160,
+   "MaleLifeExpectancy": 59.1
+ },
+ {
+   "Country": "DR Congo",
+   "BothSexesRank": 165,
+   "BothSexesLifeExpectancy": 59.8,
+   "FemaleRank": 163,
+   "FemaleLifeExpectancy": 61.5,
+   "MaleRank": 165,
+   "MaleLifeExpectancy": 58.3
+ },
+ {
+   "Country": "Burundi",
+   "BothSexesRank": 166,
+   "BothSexesLifeExpectancy": 59.6,
+   "FemaleRank": 162,
+   "FemaleLifeExpectancy": 61.6,
+   "MaleRank": 168,
+   "MaleLifeExpectancy": 57.7
+ },
+ {
+   "Country": "Guinea",
+   "BothSexesRank": 167,
+   "BothSexesLifeExpectancy": 59,
+   "FemaleRank": 171,
+   "FemaleLifeExpectancy": 59.8,
+   "MaleRank": 166,
+   "MaleLifeExpectancy": 58.2
+ },
+ {
+   "Country": "Swaziland",
+   "BothSexesRank": 168,
+   "BothSexesLifeExpectancy": 58.9,
+   "FemaleRank": 164,
+   "FemaleLifeExpectancy": 61.1,
+   "MaleRank": 171,
+   "MaleLifeExpectancy": 56.6
+ },
+ {
+   "Country": "Guinea-Bissau",
+   "BothSexesRank": 168,
+   "BothSexesLifeExpectancy": 58.9,
+   "FemaleRank": 167,
+   "FemaleLifeExpectancy": 60.5,
+   "MaleRank": 169,
+   "MaleLifeExpectancy": 57.2
+ },
+ {
+   "Country": "Malawi",
+   "BothSexesRank": 170,
+   "BothSexesLifeExpectancy": 58.3,
+   "FemaleRank": 170,
+   "FemaleLifeExpectancy": 59.9,
+   "MaleRank": 170,
+   "MaleLifeExpectancy": 56.7
+ },
+ {
+   "Country": "Equatorial Guinea",
+   "BothSexesRank": 171,
+   "BothSexesLifeExpectancy": 58.2,
+   "FemaleRank": 169,
+   "FemaleLifeExpectancy": 60,
+   "MaleRank": 171,
+   "MaleLifeExpectancy": 56.6
+ },
+ {
+   "Country": "Mali",
+   "BothSexesRank": 171,
+   "BothSexesLifeExpectancy": 58.2,
+   "FemaleRank": 175,
+   "FemaleLifeExpectancy": 58.3,
+   "MaleRank": 166,
+   "MaleLifeExpectancy": 58.2
+ },
+ {
+   "Country": "Mozambique",
+   "BothSexesRank": 173,
+   "BothSexesLifeExpectancy": 57.6,
+   "FemaleRank": 172,
+   "FemaleLifeExpectancy": 59.4,
+   "MaleRank": 175,
+   "MaleLifeExpectancy": 55.7
+ },
+ {
+   "Country": "Cameroon",
+   "BothSexesRank": 174,
+   "BothSexesLifeExpectancy": 57.3,
+   "FemaleRank": 173,
+   "FemaleLifeExpectancy": 58.6,
+   "MaleRank": 174,
+   "MaleLifeExpectancy": 55.9
+ },
+ {
+   "Country": "South Sudan",
+   "BothSexesRank": 174,
+   "BothSexesLifeExpectancy": 57.3,
+   "FemaleRank": 173,
+   "FemaleLifeExpectancy": 58.6,
+   "MaleRank": 173,
+   "MaleLifeExpectancy": 56.1
+ },
+ {
+   "Country": "Somalia",
+   "BothSexesRank": 176,
+   "BothSexesLifeExpectancy": 55,
+   "FemaleRank": 176,
+   "FemaleLifeExpectancy": 56.6,
+   "MaleRank": 176,
+   "MaleLifeExpectancy": 53.5
+ },
+ {
+   "Country": "Nigeria",
+   "BothSexesRank": 177,
+   "BothSexesLifeExpectancy": 54.5,
+   "FemaleRank": 177,
+   "FemaleLifeExpectancy": 55.6,
+   "MaleRank": 177,
+   "MaleLifeExpectancy": 53.4
+ },
+ {
+   "Country": "Lesotho",
+   "BothSexesRank": 178,
+   "BothSexesLifeExpectancy": 53.7,
+   "FemaleRank": 178,
+   "FemaleLifeExpectancy": 55.4,
+   "MaleRank": 179,
+   "MaleLifeExpectancy": 51.7
+ },
+ {
+   "Country": "Cote d'Ivoire",
+   "BothSexesRank": 179,
+   "BothSexesLifeExpectancy": 53.3,
+   "FemaleRank": 180,
+   "FemaleLifeExpectancy": 54.4,
+   "MaleRank": 178,
+   "MaleLifeExpectancy": 52.3
+ },
+ {
+   "Country": "Chad",
+   "BothSexesRank": 180,
+   "BothSexesLifeExpectancy": 53.1,
+   "FemaleRank": 179,
+   "FemaleLifeExpectancy": 54.5,
+   "MaleRank": 179,
+   "MaleLifeExpectancy": 51.7
+ },
+ {
+   "Country": "Central African Republic",
+   "BothSexesRank": 181,
+   "BothSexesLifeExpectancy": 52.5,
+   "FemaleRank": 181,
+   "FemaleLifeExpectancy": 54.1,
+   "MaleRank": 181,
+   "MaleLifeExpectancy": 50.9
+ },
+ {
+   "Country": "Angola",
+   "BothSexesRank": 182,
+   "BothSexesLifeExpectancy": 52.4,
+   "FemaleRank": 182,
+   "FemaleLifeExpectancy": 54,
+   "MaleRank": 181,
+   "MaleLifeExpectancy": 50.9
+ },
+ {
+   "Country": "Sierra Leone",
+   "BothSexesRank": 183,
+   "BothSexesLifeExpectancy": 50.1,
+   "FemaleRank": 183,
+   "FemaleLifeExpectancy": 50.8,
+   "MaleRank": 183,
+   "MaleLifeExpectancy": 49.3
+ }
+]
