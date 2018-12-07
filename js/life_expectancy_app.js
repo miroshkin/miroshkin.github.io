@@ -1,19 +1,19 @@
-// // Added test comment
-//  $(document).ready(function () {
-//   $.getJSON('../../json/life-expectancy.json', function(response) {
-//       //data is the JSON string
-//
-//       var listHTML = "<ul>";
-//       $.each(response, function (index, data) {
-//         listHTML += "<li>";
-//         listHTML += data.Country + " " + data.BothSexesLifeExpectancy;
-//         listHTML += "</li>";
-//       });
-//       listHTML += "</ul>";
-//       $("#content").html(listHTML);
-//       console.log(listHTML);
-//     });
-//  });
+// Added test comment
+ $(document).ready(function () {
+  $.getJSON('../../json/life-expectancy.json', function(response) {
+      //data is the JSON string
+
+      var listHTML = "<ul>";
+      $.each(response, function (index, data) {
+        listHTML += "<li>";
+        listHTML += data.Country + " " + data.BothSexesLifeExpectancy;
+        listHTML += "</li>";
+      });
+      listHTML += "</ul>";
+      $("#content").html(listHTML);
+      console.log(listHTML);
+    });
+ });
 
 (function() {
   var questions = [{
@@ -179,15 +179,24 @@
 function calculateCountry(){
   var message = "Hooray, country has been calculated!";
 
-  $.getJSON('https://miroshkin.github.io/json/life-expectancy.json', function(statistics) {
+  // $.getJSON('https://miroshkin.github.io/json/life-expectancy.json', function(statistics) {
+  //
+  //   var result = $.parseJSON(statistics);
+  //     for(var i=0, len= result.length; i<len; i++){
+  //         //do your stuff here
+  //         alert(result.Country);
+  //         console.log(result.Country);
+  //     }
+  // });
 
-    var result = $.parseJSON(statistics);
-      for(var i=0, len= result.length; i<len; i++){
-          //do your stuff here
-          alert(result.Country);
-          console.log(result.Country);
-      }
-  });
+
+      // var result = $.parseJSON(json);
+      // for(var i=0, len= result.length; i<len; i++){
+      //     //do your stuff here
+      //     alert(result.Country);
+      //     console.log(result.Country);
+      // }
+
 
   alert(message);
 }
