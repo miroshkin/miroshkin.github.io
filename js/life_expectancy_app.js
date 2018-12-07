@@ -181,11 +181,11 @@ function calculateCountry(){
 
   $.getJSON('https://miroshkin.github.io/json/life-expectancy.json', function(statistics) {
 
-
-      for(var i=0, len= statistics.length; i<len; i++){
+    var result = $.parseJSON(statistics);
+      for(var i=0, len= result.length; i<len; i++){
           //do your stuff here
-          alert(statistics.Country);
-          console.log(statistics.Country);
+          alert(result.Country);
+          console.log(result.Country);
       }
   });
 
