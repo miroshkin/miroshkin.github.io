@@ -179,13 +179,13 @@
 function calculateCountry(){
   var message = "Hooray, country has been calculated!";
 
-  $.getJSON('https://miroshkin.github.io/json/life-expectancy.json', function(country) {
+  $.getJSON('https://miroshkin.github.io/json/life-expectancy.json', function(statistics) {
 
-      
-      for(var i=0, len=id.length; i<len; i++){
+
+      for(var i=0, len= statistics.length; i<len; i++){
           //do your stuff here
-          alert(country.Country);
-          console.log(country.Country);
+          alert(statistics.Country);
+          console.log(statistics.Country);
       }
   });
 
