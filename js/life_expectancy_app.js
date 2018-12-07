@@ -170,12 +170,27 @@
         $('#next').hide();
         $('#prev').hide();
         $('#start').show();
+        calculateCountry();
         myMap();
       }
     });
   }
 
+function calculateCountry(){
+  var message = "Hooray, country has been calculated!";
 
+  $.getJSON('http://miroshkin.github.io/json/life-expectancy.json', function(country) {
+
+      country = JSON.parse(country);
+      for(var i=0, len=id.length; i<len; i++){
+          //do your stuff here
+          alert(country.Country);
+          console.log(country.Country);
+      }
+  });
+
+  alert(message);
+}
 
   // Computes score and returns a paragraph element to be displayed
   function displayScore() {
