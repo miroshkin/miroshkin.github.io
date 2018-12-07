@@ -179,7 +179,7 @@
 function calculateCountry(){
   var message = "Hooray, country has been calculated!";
 
-  $.getJSON('http://miroshkin.github.io/json/life-expectancy.json', function(country) {
+  $.getJSON('https://miroshkin.github.io/json/life-expectancy.json', function(country) {
 
       country = JSON.parse(country);
       for(var i=0, len=id.length; i<len; i++){
