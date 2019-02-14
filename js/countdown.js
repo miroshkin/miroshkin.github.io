@@ -27,9 +27,9 @@ function countdown(endDate) {
 
       seconds = parseInt(timeRemaining);
 
-      document.getElementById("days").innerHTML = parseInt(days, 10);
-      document.getElementById("hours").innerHTML = ("0" + hours).slice(-2);
-      document.getElementById("minutes").innerHTML = ("0" + minutes).slice(-2);
+      document.getElementById("days").innerHTML = parseInt(days, 10) + ':';
+      document.getElementById("hours").innerHTML = ("0" + hours).slice(-2) + ':';
+      document.getElementById("minutes").innerHTML = ("0" + minutes).slice(-2) + ':';
       document.getElementById("seconds").innerHTML = ("0" + seconds).slice(-2);
     } else {
       return;

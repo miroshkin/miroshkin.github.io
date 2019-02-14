@@ -5,16 +5,22 @@
     <title>Denmark 2019</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="../img/dk.png"/>
+    <style>
+    @font-face{
+              font-family:'digital-clock-font';
+              src: url('../fonts/digital-7.ttf');
+              }
+    </style>
   </head>
   <body>
     <div style="width:800px; margin:0 auto;font-family:Roboto;">
-      <h1 style='color:red; '>DENMARK 2019</h1>
+      <h1 style='color:red;'>DENMARK 2019</h1>
       <div class="countdown">
-      <p class="timer">
-          <span id="days"></span> Day(s)
-          <span id="hours"></span> Hour(s)
-          <span id="minutes"></span> Minute(s)
-          <span id="seconds"></span> Second(s)
+      <p class="timer" style='font-family: digital-clock-font; font-size:2em;'>
+          <span id="days"></span>
+          <span id="hours"></span>
+          <span id="minutes"></span>
+          <span id="seconds"></span>
       </p>
       </div>
     </div>
