@@ -5,15 +5,25 @@
     <title>Denmark 2019</title>
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="../img/dk.png"/>
+    <script type="text/javascript">
+    function myFunction(inputId) {
+            var copyText = document.getElementById(inputId);
+            copyText.select();
+            document.execCommand("copy");
+          }
+    </script>
     <style>
     @font-face{
               font-family:'digital-clock-font';
               src: url('../fonts/digital-7.ttf');
               }
+              * {
+                font-family: Orbitron;
+              }
     </style>
   </head>
   <body>
-    <div style="width:800px; margin:0 auto;font-family:Orbitron;">
+    <div style="width:800px; margin:0 auto;">
       <h1 style='color:red;'>DENMARK 2019</h1>
       <div class="countdown">
       <p class="timer" style='font-family: digital-clock-font; font-size:2em;'>
@@ -23,6 +33,48 @@
           <span id="seconds"></span>
       </p>
       </div>
+
+      <div style="font-family: Orbitron;">
+        <div>
+          <input type="text" value="Anton" id="firstName">
+          <button onclick="myFunction('firstName')">FIRST NAME</button>
+        </div>
+        <div>
+          <input type="text" value="Miroshkin" id="lastName">
+          <button onclick="myFunction('lastName')">LAST NAME</button>
+        </div>
+        <div>
+          <input type="text" value="anton.miroshkin@gmail.com" id="email">
+          <button onclick="myFunction('email')">EMAIL</button>
+        </div>
+        <div>
+          <input type="text" value="Russia, Moscow region, 140091, Dzerzhinskiy, Tomilinskaya 13-21" id="address">
+          <button onclick="myFunction('address')">ADDRESS</button>
+        </div>
+        <div>
+          <input type="text" value="Moscow Power Engineering Institute (Technical University) Master Degree 2009, Bachelor Degree 2007, Electrical Systems And Networks" id="education">
+          <button onclick="myFunction('education')">EDUCATION</button>
+        </div>
+        <div>
+          <input type="text" value="Moscow Power Engineering Institute (Technical University) Bachelor Degree 2007, Translation And Interpreting Studies" id="second-education">
+          <button onclick="myFunction('second-education')">SECOND EDUCATION</button>
+        </div>
+        <div>
+          <textarea id="experience-emex">I am a C# software developer in a .NET team that is responsible for the development of web services and apps for customer relationship management. At the same time I work on counterfeit detection and processing functionality for the warehouse management system. Other important parts of my daily activities are codebase support and refactoring.
+              Projects
+              • Warehouse management system - WPF app and WCF services - full stack development
+              • Document, customer and job services – report generation, printing and sending, registration data processing, scheduled operations execution - back end development
+
+              Results
+              • Developed counterfeit service and app functionality that automatically detects and registers counterfeit supplies from partners
+              • Developed optimized report set that allows saving paper by up to 25%
+              • Developed multithreaded app for delivery management system  that allowed to process order confirmation 10 times faster" id="experience-emex</textarea>
+          <button onclick="myFunction('experience-emex')">EXPERIENCE EMEX</button>
+        </div>
+      </div>
+
+
+
     </div>
     <!-- Credits to https://codeburst.io/a-countdown-timer-in-pure-javascript-f3cdaae1a1a3 -->
     <script src="../js/countdown.js"></script>
