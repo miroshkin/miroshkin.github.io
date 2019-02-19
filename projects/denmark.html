@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="../img/dk.png"/>
     <script type="text/javascript">
-    function myFunction(inputId) {
+    function CopyToClipboard(inputId) {
             var copyText = document.getElementById(inputId);
             copyText.select();
             document.execCommand("copy");
@@ -19,6 +19,9 @@
               }
               * {
                 font-family: Orbitron;
+              }
+              textarea {
+                width: 100%;
               }
     </style>
   </head>
@@ -37,27 +40,27 @@
       <div style="font-family: Orbitron;">
         <div>
           <input type="text" value="Anton" id="firstName">
-          <button onclick="myFunction('firstName')">FIRST NAME</button>
+          <button onclick="CopyToClipboard('firstName')">FIRST NAME</button>
         </div>
         <div>
           <input type="text" value="Miroshkin" id="lastName">
-          <button onclick="myFunction('lastName')">LAST NAME</button>
+          <button onclick="CopyToClipboard('lastName')">LAST NAME</button>
         </div>
         <div>
           <input type="text" value="anton.miroshkin@gmail.com" id="email">
-          <button onclick="myFunction('email')">EMAIL</button>
+          <button onclick="CopyToClipboard('email')">EMAIL</button>
         </div>
         <div>
           <input type="text" value="Russia, Moscow region, 140091, Dzerzhinskiy, Tomilinskaya 13-21" id="address">
-          <button onclick="myFunction('address')">ADDRESS</button>
+          <button onclick="CopyToClipboard('address')">ADDRESS</button>
         </div>
         <div>
           <input type="text" value="Moscow Power Engineering Institute (Technical University) Master Degree 2009, Bachelor Degree 2007, Electrical Systems And Networks" id="education">
-          <button onclick="myFunction('education')">EDUCATION</button>
+          <button onclick="CopyToClipboard('education')">EDUCATION</button>
         </div>
         <div>
           <input type="text" value="Moscow Power Engineering Institute (Technical University) Bachelor Degree 2007, Translation And Interpreting Studies" id="second-education">
-          <button onclick="myFunction('second-education')">SECOND EDUCATION</button>
+          <button onclick="CopyToClipboard('second-education')">SECOND EDUCATION</button>
         </div>
         <div>
           <textarea id="experience-emex">
@@ -79,7 +82,7 @@
               •	Created counterfeit detection service resulting in automatic supply penalty processing
               •	Improved and refactored codebase reducing production errors number by 90%"
             </textarea>
-          <button onclick="myFunction('experience-emex')">EXPERIENCE EMEX</button><br>
+          <button onclick="CopyToClipboard('experience-emex')">EXPERIENCE EMEX</button><br>
           <textarea id="experience-rzd">
               My responsibilities in chief designer department were the support and development of SCADA
               system modules and electronic documentation web application.
@@ -95,7 +98,7 @@
               •	Added new product feature expanding SCADA system connectivity options
               •	Planned five-year goals and road map for operation"
             </textarea>
-          <button onclick="myFunction('experience-rzd')">EXPERIENCE RZD</button> <br>
+          <button onclick="CopyToClipboard('experience-rzd')">EXPERIENCE RZD</button> <br>
           <textarea id="experience-rnd">
               The main part of my work in the power networks department was investigation and
               searching for new ways for artificial intelligence and natural language processing
@@ -106,10 +109,50 @@
 
               Accomplishments
               • Written 10 scientific articles resulting in 5 magazine articles and 7 conference reports/presentations
-              •	Installed substation system providing dispatching  express analysis"
+              •	Installed substation system providing dispatching  express analysis
 
             </textarea>
-          <button onclick="myFunction('experience-rnd')">EXPERIENCE R&D Centre</button>
+            <button onclick="CopyToClipboard('experience-rnd')">EXPERIENCE R&D Centre</button> <br>
+
+          <textarea id="additional-education">
+            Online technology school Treehouse, 01/2017-12/2018 teamtreehouse.com
+            •	Front-end Web Development Track
+            •	Full-Stack Javascript Track
+
+          Computer Training Center “Specialist” at Bauman Moscow State Technical University,  06/2015 – 11/2015 specialist.ru
+            •	Programming in C# (Microsoft Official Course 20483)
+            •	Developing ASP.NET MVC Web Applications (Microsoft Official Course 20487)
+            •	Developing Windows Azure And Web Services (Microsoft Official Course 20487)
+
+            </textarea>
+
+            <button onclick="CopyToClipboard('additional-education')">ADDITIONAL EDUCATION</button><br>
+            <textarea id="interests">
+              My hobbies include reading, photography and music:
+            •	Lifelong education addiction and ideas for self-development motivate me a lot
+            •	I like to take photographs of people and nature, because it is a possibility for catching awesome life moments
+            •	I play the guitar, recorder, and several other instruments. Music makes me feel happy and gives me a sense of harmony that is very important in both private family life and in work
+              </textarea>
+
+              <button onclick="CopyToClipboard('interests')">PERSONAL INTERESTS AND HOBBIES</button><br>
+
+              <textarea id="languages">
+                •	English – Advanced C1
+                •	Danish – Elementary A1
+                •	Russian – Native speaker C2
+                </textarea>
+
+                <button onclick="CopyToClipboard('languages')">LANGUAGE SKILLS</button><br>
+
+                <textarea id="achievements">
+                  •	Certificate of Cambridge CAE, 2017
+                  •	Patent “Automated analysis of faults in Unified National Power Grid substations” (№2011619166), 2015
+                  •	“Automated Analysis of Faults in Electric Networks”, Power Technology and Engineering, 2014
+                  </textarea>
+
+                  <button onclick="CopyToClipboard('achievements')">ACHIEVEMENTS AND PUBLICATIONS</button><br>
+
+
         </div>
       </div>
 
