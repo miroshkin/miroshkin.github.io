@@ -17,9 +17,9 @@
               font-family:'digital-clock-font';
               src: url('../fonts/digital-7.ttf');
               }
-              /* * {
-                font-family: Orbitron;
-              } */
+              * {
+                font-family: monospace;
+              }
               textarea {
                 width: 100%;
               }
@@ -39,27 +39,35 @@
 
       <div style="font-family: Orbitron;">
         <div>
-          <input type="text" value="Anton" id="firstName">
+          <input type="text" size="80" value="Anton" id="firstName">
           <button onclick="CopyToClipboard('firstName')">FIRST NAME</button>
         </div>
         <div>
-          <input type="text" value="Miroshkin" id="lastName">
+          <input type="text" size="80" value="Miroshkin" id="lastName">
           <button onclick="CopyToClipboard('lastName')">LAST NAME</button>
         </div>
         <div>
-          <input type="text" value="anton.miroshkin@gmail.com" id="email">
+          <input type="text" size="80" value="anton.miroshkin@gmail.com" id="email">
           <button onclick="CopyToClipboard('email')">EMAIL</button>
         </div>
         <div>
-          <input type="text" value="Russia, Moscow region, 140091, Dzerzhinskiy, Tomilinskaya 13-21" id="address">
+          <input type="text" size="80" value="linkedin.com/in/miroshkin-anton/" id="linkedin">
+          <button onclick="CopyToClipboard('linkedin')">LINKEDIN</button>
+        </div>
+        <div>
+          <input type="text" size="80" value="miroshkin.github.io" id="website">
+          <button onclick="CopyToClipboard('website')">PERSONAL WEBSITE</button>
+        </div>
+        <div>
+          <input type="text" size="80" value="Russia, Moscow region, 140091, Dzerzhinskiy, Tomilinskaya 13-21" id="address">
           <button onclick="CopyToClipboard('address')">ADDRESS</button>
         </div>
         <div>
-          <input type="text" value="Moscow Power Engineering Institute (Technical University), Master of Science in Engineering, 2009, Bachelor Degree 2007, Electrical Systems And Networks" id="education">
+          <input type="text" size="80" value="Moscow Power Engineering Institute (Technical University), Master of Science in Engineering, 2009, Bachelor Degree 2007, Electrical Systems And Networks" id="education">
           <button onclick="CopyToClipboard('education')">EDUCATION</button>
         </div>
         <div>
-          <input type="text" value="Moscow Power Engineering Institute (Technical University) Bachelor Degree 2007, Translation And Interpreting Studies" id="second-education">
+          <input type="text" size="80" value="Moscow Power Engineering Institute (Technical University) Bachelor Degree 2007, Translation And Interpreting Studies" id="second-education">
           <button onclick="CopyToClipboard('second-education')">SECOND EDUCATION</button>
         </div>
         <br>
