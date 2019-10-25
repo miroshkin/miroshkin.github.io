@@ -11,8 +11,28 @@
             copyText.select();
             document.execCommand("copy");
           }
+          function CopyAll(inputId) {
+                  CopyToClipboard("firstName");
+                  CopyToClipboard("lastName");
+                  // CopyToClipboard("email");
+                  // CopyToClipboard("linkedin");
+                  // CopyToClipboard("website");
+                  // CopyToClipboard("address");
+                  // CopyToClipboard("education");
+                  // CopyToClipboard("second-education");
+                  // CopyToClipboard("profile");
+                  // CopyToClipboard("job-wishes");
+                  // CopyToClipboard("experience-emex");
+                  // CopyToClipboard("experience-rzd");
+                  // CopyToClipboard("experience-rnd");
+                  // CopyToClipboard("additional-education");
+                  // CopyToClipboard("interests");
+                  // CopyToClipboard("languages");
+                  // CopyToClipboard("achievements");
+          }
     </script>
     <style>
+            
     @font-face{
               font-family:'digital-clock-font';
               src: url('../fonts/digital-7.ttf');
@@ -38,6 +58,10 @@
       </div>
 
       <div style="font-family: Orbitron;">
+        <div>
+          <input type="text" size="80" value="CopyAll" id="firstName">
+          <button onclick="CopyAll()">COPY ALL</button>
+        </div>
         <div>
           <input type="text" size="80" value="Anton" id="firstName">
           <button onclick="CopyToClipboard('firstName')">FIRST NAME</button>
