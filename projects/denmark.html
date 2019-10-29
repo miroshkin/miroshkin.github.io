@@ -11,24 +11,13 @@
             copyText.select();
             document.execCommand("copy");
           }
-          function CopyAll(inputId) {
-                  CopyToClipboard("firstName");
-                  CopyToClipboard("lastName");
-                  // CopyToClipboard("email");
-                  // CopyToClipboard("linkedin");
-                  // CopyToClipboard("website");
-                  // CopyToClipboard("address");
-                  // CopyToClipboard("education");
-                  // CopyToClipboard("second-education");
-                  // CopyToClipboard("profile");
-                  // CopyToClipboard("job-wishes");
-                  // CopyToClipboard("experience-emex");
-                  // CopyToClipboard("experience-rzd");
-                  // CopyToClipboard("experience-rnd");
-                  // CopyToClipboard("additional-education");
-                  // CopyToClipboard("interests");
-                  // CopyToClipboard("languages");
-                  // CopyToClipboard("achievements");
+          function CopyAll() {
+                var elements = ["firstName", "lastName", "email", "linkedin","website","address","education","second-education","profile","job-wishes","experience-emex"
+                ,"experience-rzd", "experience-rnd","additional-education","interests", "languages","achievements"];
+                  var i;
+                  for (i = 0; i < elements.length; i++) {
+                    CopyToClipboard(elements[i]);
+                  }
           }
     </script>
     <style>
