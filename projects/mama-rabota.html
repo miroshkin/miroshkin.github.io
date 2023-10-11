@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Date Picker with Marked Days (Russian)</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <style>
+    .ui-datepicker-fourth-day .ui-state-default {
+      background: #ffcc00;
+      border: 1px solid #333;
+      color: #333;
+    }
+    .ui-datepicker-first-day .ui-state-default {
+      background: lime;
+      border: 1px solid #333;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Смена</h1>
+<input type="text" id="start-date-picker">
+
+<div id="end-date-picker" style="display: none;"><h1>Расписание</h1></div>
+
+<script>
+$(function() {
+  // Extend localization settings with Russian month names
+  $.datepicker.regional.ru = {
+    monthNames: [
+      "Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+      "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"
+    ],
+    monthNamesShort: [
+      "Янв", "Фев", "Мар", "Апр", "Май", "Июн",
+      "Июл", "Авг", "Сен", "Окт", "Ноя", "Дек"
+    ],
+    dayNames: [
+      "Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"
+    ],
+    dayNamesShort: [
+      "Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"
+    ],
+    dayNamesMin: ["Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"],
+    weekHeader: "Неделя",
+    firstDay: 1, // Monday as the first day of the week
+    isRTL: false,
+    showMonthAfterYear: false,
+    yearSuffix: "",
+  };
+
+  // Set the default language to Russian
+  $.datepicker.setDefaults($.datepicker.regional.ru);
+
+  var startPicker = $("#start-date-picker");
+  var endPicker = $("#end-date-picker");
+
+  startPicker.datepicker({
+    dateFormat: 'dd.mm.yy',
+    showOtherMonths: true,
+    selectOtherMonths: true,
+    changeMonth: true,
+    changeYear: true,
+    onSelect: function (selectedDate) {
+      var startDate = startPicker.datepicker("getDate") || new Date();
+      startDate.setDate(startDate.getDate() + 3); // Add 3 days
+      endPicker.datepicker("option", "minDate", startDate);
+      endPicker.show(); // Show the end date picker when a start date is selected
+    }
+  });
+
+  endPicker.datepicker({
+    dateFormat: 'dd.mm.yy',
+    showOtherMonths: true,
+    selectOtherMonths: true,
+    changeMonth: true,
+    changeYear: true,
+    beforeShowDay: function(date) {
+      var startDate = startPicker.datepicker("getDate") || new Date();
+      var daysDiff = Math.floor((date - startDate) / (1000 * 60 * 60 * 24));
+      console.log(daysDiff + date);
+
+      if (daysDiff === 0) { 
+        return [true, 'ui-datepicker-first-day'];
+      }
+
+      return [daysDiff == 0 || daysDiff % 4 === 0, 'ui-datepicker-fourth-day'];
+    }
+  });
+});
+</script>
+
+</body>
+</html>
