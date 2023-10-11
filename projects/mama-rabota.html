@@ -2,11 +2,15 @@
 <html>
 <head>
   <title>Date Picker with Marked Days (Russian)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Bootstrap CSS -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> <!-- Bootstrap JavaScript -->
 
   <style>
+    /* Common styles for both desktop and mobile */
     .ui-datepicker-fourth-day .ui-state-default {
       background: #ffcc00;
       border: 1px solid #333;
@@ -17,18 +21,39 @@
       border: 1px solid #333;
       color: black;
     }
+
+    /* Mobile-specific styles using media queries */
+    @media (max-width: 480px) {
+      /* Adjust styles for small screens here */
+      .ui-datepicker {
+        font-size: 14px; /* Example: Reduce font size for mobile */
+      }
+      .ui-datepicker td {
+        padding: 5px; /* Example: Increase spacing for mobile */
+      }
+    }
   </style>
 </head>
 <body>
 
-<h1>Смена</h1>
-<input type="text" id="start-date-picker">
-
-<div id="end-date-picker" style="display: none;"><h1>Расписание</h1></div>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1>Смена</h1>
+      <input type="text" id="start-date-picker">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div id="end-date-picker" style="display: none;">
+        <h1>Расписание</h1>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script>
 $(function() {
-  // Extend localization settings with Russian month names
   $.datepicker.regional.ru = {
     monthNames: [
       "Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
@@ -46,13 +71,12 @@ $(function() {
     ],
     dayNamesMin: ["Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"],
     weekHeader: "Неделя",
-    firstDay: 1, // Monday as the first day of the week
+    firstDay: 1,
     isRTL: false,
     showMonthAfterYear: false,
     yearSuffix: "",
   };
 
-  // Set the default language to Russian
   $.datepicker.setDefaults($.datepicker.regional.ru);
 
   var startPicker = $("#start-date-picker");
@@ -66,9 +90,9 @@ $(function() {
     changeYear: true,
     onSelect: function (selectedDate) {
       var startDate = startPicker.datepicker("getDate") || new Date();
-      startDate.setDate(startDate.getDate() + 3); // Add 3 days
+      startDate.setDate(startDate.getDate() + 3);
       endPicker.datepicker("option", "minDate", startDate);
-      endPicker.show(); // Show the end date picker when a start date is selected
+      endPicker.show();
     }
   });
 
@@ -81,7 +105,6 @@ $(function() {
     beforeShowDay: function(date) {
       var startDate = startPicker.datepicker("getDate") || new Date();
       var daysDiff = Math.floor((date - startDate) / (1000 * 60 * 60 * 24));
-      console.log(daysDiff + date);
 
       if (daysDiff === 0) { 
         return [true, 'ui-datepicker-first-day'];
