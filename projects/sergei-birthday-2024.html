@@ -9,6 +9,7 @@
             margin: 0;
             padding: 0;
             height: 100%;
+            width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -16,17 +17,30 @@
             background-size: cover;
             color: white;
             font-family: Arial, sans-serif;
-            font-size: 2em;
             text-align: center;
         }
         #countdown {
             background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
             padding: 20px;
             border-radius: 10px;
+            max-width: 90%;
+            box-sizing: border-box;
+        }
+        #countdown div {
+            margin: 10px 0;
         }
         #days {
-            font-size: 4em;
-            margin-top: 20px;
+            font-size: 10vw; /* Make the font-size responsive */
+        }
+        @media (min-width: 768px) {
+            #days {
+                font-size: 5vw;
+            }
+        }
+        @media (min-width: 1200px) {
+            #days {
+                font-size: 4vw;
+            }
         }
     </style>
 </head>
