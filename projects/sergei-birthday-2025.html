@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>До 20 июля 2025 года осталось</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('https://images.unsplash.com/photo-1614200179396-2bdb77ebf81b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #countdown {
+            background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 90%;
+            box-sizing: border-box;
+        }
+        #countdown div {
+            margin: 10px 0;
+        }
+        #days {
+            font-size: 10vw; /* Make the font-size responsive */
+        }
+        @media (min-width: 768px) {
+            #days {
+                font-size: 5vw;
+            }
+        }
+        @media (min-width: 1200px) {
+            #days {
+                font-size: 4vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="countdown">
+        <div>До 20 июля 2025 года осталось:</div>
+        <div id="days"></div>
+    </div>
 
+    <script>
+        function updateCountdown() {
+            const targetDate = new Date('2025-07-20T00:00:00');
+            const now = new Date();
+            const timeDifference = targetDate - now;
+            const daysRemaining = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
+
+            document.getElementById('days').textContent = daysRemaining + ' дней';
+        }
+
+        updateCountdown();
+        setInterval(updateCountdown, 1000 * 60 * 60 * 24); // Update every day
+    </script>
+</body>
+</html>
