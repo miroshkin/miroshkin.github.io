@@ -3,7 +3,7 @@
 <body style="background:#000;">
 <script>
   document.addEventListener('keydown', function(e) {
-    if (e.key === 'f' || e.key === 'F') {
+    if (e.code === 'KeyF') {
       if (!document.fullscreenElement) {
         document.documentElement.requestFullscreen();
       } else {
